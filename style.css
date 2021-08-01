@@ -1,0 +1,254 @@
+
+
+<style type="text/css">
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+       
+	body{
+		background-color:lavender;
+	}
+
+	.places{
+		transition: width 2s linear 1s;
+	}
+
+	.header{
+		min-height: 10vh;
+		width: 100%;
+		background-image:url('image2.jpg');
+		background-position: center;
+		background-size: cover;
+		position: relative;
+	}
+
+	nav{
+		display: flex;
+		padding: 10px;
+		justify-content:  space-between;
+		position: relative;
+	}
+
+	.places{
+		flex: 1;
+		text-align: right;
+	}
+	.places ul li{
+		list-style: none;
+		display: inline-block;
+		paddding: 10px;
+		position: relative
+
+	}
+	header{
+		text-align: center;
+		color:firebrick;
+	}
+	.places ul li a{
+		color: darkorchid;
+		text-decoration: none;
+		font-size: 15px;
+		font-family:sans-serif;
+		padding-right: 2px;
+	}
+	.places ul li::after{
+		content: '';
+		width: 100%;
+		height: 2px;
+		background: blue;
+		margin: auto;
+		width: 0%;
+		transition: 0.5s;
+	}
+	.places ul li:hover::after{
+		width: 100%;
+		border: 2px ;
+		border:1px 
+		transition: 0.5s;
+		transform: rotateY(180deg);
+		transform: rotateZ(90deg);
+		transform: rotateY(60deg);
+  transform-style: preserve-3d;
+}
+
+  a:hover::after{
+		width: 100%;
+		border: 2px ;
+		border:1px 
+		transition: 0.5s;
+		transform: rotateY(180deg);
+		transform: rotateZ(90deg);
+		transform: rotateY(60deg);
+  transform-style: preserve-3d;
+}
+
+
+.places {
+  width:10vh;
+  height:500px;
+  background-image:url('image7.jpg');
+  background-repeat:no-repeat;
+  animation-name: example;
+  animation-duration: 2s;
+  font-family:var('I love History');
+  
+}
+
+
+
+@keyframes example {
+  from {background-image:url('image5.jpg');}
+  to {background-image:url('image20.jpg');}
+  to{background-color:grey;}
+}
+
+
+	.great{
+		width: 90%;
+		color: seagreen;
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		transform: translate(-50%,90%);
+		text-align: center;
+		color:mediumseagreen;
+		background-size:cover;
+		background-repeat: no-repeat;
+		transform-style:inherit;
+		font-family:monospace;
+        
+
+
+	}
+
+	a:hover{
+
+		border:0.5px  solid skyblue;
+		background:skyblue;
+		transition:0.5s;
+		border-radius: inherit;
+		transform-style: initial;
+		transition: width 2s linear 1s;
+		transform: rotateZ(100deg);
+	}
+
+	}
+
+
+	.great{
+		font-size:15px;
+	}
+	.great h1,p{
+		font-size: 75px;
+	}
+	.vacation{display: inline-block;
+		      text-decoration: none;
+		      color: green;
+		      border: 1px solid blue;
+		      padding: 10px;
+		      background: transparent;
+		      cursor: pointer;
+		      position: relative;
+
+	}
+
+	.vacation:hover{
+		border: 1px  solid #f43556;
+		background:#f43556;
+		transition: 1s;
+		background-attachment:scroll;
+	}
+
+	.africa a{text-align:right;
+
+	}
+   .imagination{
+   	flex: 1;
+   	text-align:center;
+
+   }
+   #hello{
+        font-family: Cursive;
+        background-image: url('images1.jpg');
+        image-rendering:optimizeQuality;
+        transform: rotateZ(180deg);
+        
+
+
+   }
+
+   #straight{
+   	transform: rotateZ(360deg);
+   	transition:2s;
+
+   }
+   central{
+   	font-family: Cursive;
+        background-color:green;
+        image-rendering:optimizeQuality;
+  }
+     body{
+     	color: steelblue;
+     }
+
+     
+ button:hover{
+		border: 1px #f14563;
+		background:#f14563;
+		transition:0.2s;
+		background-attachment:scroll;
+		grid-area:initial;
+		color-rendering: optimizeQuality;	}
+
+
+		#straight{
+			height:700px;
+			width:1500px;
+		}
+
+		#case{
+			height:200px;
+			width: 200px;
+			image-rendering:inherit ;
+		}
+
+
+	
+
+@keyframes example {
+   from {background-image:url('images2.jpg');}
+  to{background-image:url('images16.jpg');}
+     background-repeat:no-repeat
+ 
+}
+
+
+
+  
+  body: hover{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color:none;
+  animation-name: example;
+  animation-duration:0.5s;
+  text-align:left;
+  height: 200px;
+
+}
+
+#rock{
+	background-repeat: no-repeat;
+	border-image-width:500px;
+	background-size: cover;
+}
+
+.
+
+
+
+
+
+</style>
